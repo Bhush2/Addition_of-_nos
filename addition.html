@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+</head>
+<body>
+    <h1>Addition of two numbers using two variables without using 3rd variable</h1>
+    <p id='test'></p>
+    <button type='button' onclick="myTest()">click</button>
+    <script>
+       
+       function myTest(){
+       let a , b;
+        a=10;
+        b=20;
+        b=a+b;
+        a=a+b;
+        b=a-b;
+
+        document.getElementById('test').innerHTML= "value of A is :" +  a + "<br/> " + "value of B is :" + b;
+
+        }
+    </script>
+</body>
+</html>
